@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content{
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/bg_3.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000004e;
+}
+.nav{
+    margin: 30px auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.log1 h2{
+    color: #ffff;
+}
+.log2 h2{
+    color: #01d28e;
+}
+.link{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.link a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.1rem;
+    transition: .6s ease-in-out;
+}
+.link a:hover{
+    color: #01d28e;
+}
+.short{
+    width: 80%;
+    margin: 250px auto;
+}
+.short p{
+    color:  #c6c6c6;
+}
+.short h1{
+    color: #ffff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.rate{
+    width: 100%;
+    display: flex;
+    gap: 0.5px;
+   
+}
+.rate-item1{
+    height: 80px;
+    background-color: #1089ff;
+    color: #ffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+.rate-item2{
+    height: 80px;
+    background-color: #343a40;
+    color: #ffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+.rate-item3{
+    height: 80px;
+    background-color: #000000;
+    color: #ffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+}
+.main{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+}
+.rides{
+    width: 40%;
+    margin-top: 110px;
+}
+.car-name{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pls{
+    margin-top: 30px;
+}
+.lim{
+    padding-bottom: 30px;
+
+}
+.car1{
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/car-1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 190px;
+}
+.name{
+    padding: 0 20px;
+}
+.name p{
+    font-size: 1.15rem;
+    color:  #343a40;
+    font-weight: 400;
+}
+.fstars img{
+    width: 16px;
+    height: 16px;
+    
+}
+.prices{
+    width: 60%
+    
+    
+}
+.price1{
+    width: 100%;
+    display: flex;
+    gap: 0.5px;
+    margin-bottom: 1px;
+}
+.price1a {
+    background-color: #f2f2f2;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33.3%;
+
+}
+.price1a h3{
+    margin-bottom: 10px;
+    padding-top: 50px;
+    color: rgb(128, 128, 128);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+span{
+    color: #1089ff;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.bar{
+    width: 85%;
+    height: 15px;
+    background-color: #f1f1f1;
+    margin: 15px auto 90px auto;
+}
+.footer{
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 110px 60px;
+    color: #ffff;
+    gap: 80px;
+}
+
+.footer1a{
+    width: 290px;
+    height: 50vh;
+} 
+.p{
+    padding-top: 45px;
+}       
+.footer1a p{
+    padding-top: 5px;
+    font-size: 1.1rem;
+    color: #c6c6c6;
+}
+.footer1 h3{
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.footer1 ul{
+    list-style: none;
+}
+ul li{
+    padding-bottom: 20px;
+}
+.icons{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto 50px;
+}
+.footer1{
+    width: 290px;
+    height: 50vh;
+}
+.footer1 li{
+    font-size: 1.1rem;
+    color: #c6c6c6;
+}
+.que1{
+    display: flex;
+    
+}
+.que{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    text-align: center;
+    
+}
+.que1 p{
+    padding-bottom: 20px;
+    color: #c6c6c6;
+    font-size: 1.1rem;
+}
+.que2{
+    display: flex;
+    color: #fefefe;
+    font-size: 1.1rem;
+}
+.postfooter{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    padding-bottom: 80px;
+    
+}
+.postfooter p{
+    width: 55%;
+    margin: auto;
+    color: #c6c6c6;
+    font-size: 1.1rem;
+}
+

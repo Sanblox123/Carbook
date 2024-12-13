@@ -1,0 +1,723 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content{
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/bg_1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 155vh;
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 155vh;
+    background-color: #0000004e;
+}
+.nav{
+    margin: 30px auto;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.log1 h2{
+    color: #ffff;
+}
+.log2 h2{
+    color: #01d28e;
+}
+.link{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.link a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.1rem;
+    transition: .6s ease-in-out;
+}
+.link a:hover{
+    color: #01d28e;
+}
+.cen-txt{
+    width: 55%;
+    margin: auto;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 120px;
+}
+.cen-txt h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.cen-txt p{
+    font-size: 1.3rem;
+}
+.green-play{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    color: #ffff;
+}
+.green{
+
+}
+.shl{
+    height: 2px;
+    width: 30px;
+    background-color: #ffff;
+}
+.easy p{
+    font-size: 1.1rem;
+    font-weight: 470;
+}
+.overlap{
+    display: flex;
+    width: 85%;
+    position: absolute;
+    align-items: center;
+    top: 75%;
+    right: 8%;
+}
+.overlap1{
+    height: 95vh;
+    background-color: #1089ff;
+    width: 35%;
+    border-radius: 3px;
+}
+.inside{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    color: #ffff;
+    height: 75vh;
+    margin: auto 0;
+    justify-content: space-between;
+    padding-top: 25px;
+
+}
+.overlap2{
+    height: 78vh;
+    width: 63%;
+    background-color: #ffff;
+}
+.precede{
+    font-size: 1.03rem;
+}
+.pick{
+
+}
+.pick h4{
+    font-size: 0.78rem;
+}
+.pick p{
+    color: lightblue;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.tino{
+    display: flex;
+    gap: 50px;
+}
+.butt{
+
+    margin: 30px auto;
+}
+.butt button{
+    background-color: #01d28e;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    margin: 30px auto;
+    font-size: 1.03rem;
+    color: #ffff;
+}
+.inside2{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    height: 60vh;
+    margin-bottom: 45px;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.better{
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    width: 85%;
+    gap: 30px;
+    margin: 35px auto;
+    padding-bottom: 50px;
+}
+.flex-item{
+    width: 31%;
+    height: 100px;
+}
+.flex-item img{
+    padding-left: 30px;
+}
+.flex-item h3{
+    color: rgba(0, 0, 0, 0.669);
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+}
+.butt2{
+    margin: 10px;
+    padding-left: 35px;
+}
+.butt2 button{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    padding-top: 10px;
+    font-size: 1.03rem;
+    background-color: #1089ff;
+    color: #ffff;
+    border: none;
+    padding-bottom: 10px;
+}
+.feat-veh{
+    width: 100%;
+    background-color: #f8f9fa;
+    padding-top: 400px;
+}
+.write{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.write h5{
+    color: #1089ff;
+    letter-spacing: 1px;
+}
+.write h2{
+    padding-top: 20px;
+    font-size: 2.9rem;
+    color: rgba(0, 0, 0, 0.84);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 88%;
+    gap: 30px;
+    margin: auto;
+}
+.grid1{
+    height: 350px;
+    margin-top: 60px;
+
+}
+.img1{
+    height: 220px;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/car-3.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    height: 220px;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/car-1.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    height: 220px;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/car-4.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #ffffff;
+}
+.txt h3{
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+.mid p{
+    color: rgb(211, 211, 211);
+}
+.con{
+    display: flex;
+}
+.con h4{
+    color: #1089ff;
+}
+.twobut{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.but1{
+    
+   
+}
+.but1 button{
+    height: 40px;
+    width: 145px;
+    background-color: #1089ff;
+    color: #ffff;
+    border: none;
+    font-size: 1.03rem;
+}
+.but2 button{
+    height: 40px;
+    width: 145px;
+    background-color: #01d28e;
+    color: #ffff;
+    border: none;
+    font-size: 1.03rem;
+}
+.welcome{
+    width: 100%;
+    display: flex;
+    margin-top: 180px;
+    position: relative;
+}
+.wel1{
+    height: 120vh;
+    background-color: #ffffff;
+    width: 37%;
+}
+.wel2{
+    height: 120vh;
+    background-color: #01d28e;
+    width: 63%;
+}
+.in{
+    width: 75%;
+    float: right;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffff;
+    margin-top: 50px;
+}
+.first{
+    letter-spacing: 1px;
+    color:  #f8f9fa;
+}
+.second{
+    padding-top: 20px;
+    font-size: 1.3rem;
+}
+.long{
+    color:   #f8f9fa;
+    padding-top: 35px;
+}
+.long p{
+    font-size: 1.12rem;
+    letter-spacing: 0.5px;
+}
+.veh-but button{
+    margin-top: 20px;
+    height: 60px;
+    width: 170px;
+    color: #f8f9fa;
+    background-color: #1089ff;
+    border: none;
+    font-size: 1.03rem;
+    font-weight: 480;
+}
+.bgimg{
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/about.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 43%;
+    position: absolute;
+    top: 12%;
+    background-color: #1089ff;
+    left: 80px;
+}
+.write2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.write2 h5{
+    color: #1089ff;
+    letter-spacing: 1px;
+}
+.write2 h2{
+    padding-top: 20px;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.84);
+}
+.flexing{
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.img img{
+    border-radius: 50px;
+}
+.text h3{
+    padding-top: 20px;
+    font-weight: 500;
+}
+.text p{
+    padding-top: 15px;
+    color: rgb(128, 128, 128);
+    font-weight: 500;
+    font-size: 1.08rem;
+}
+.flex1{
+    width: 25%;
+    height: 270px;
+}
+.flex1 img{
+    height: 120px;
+    width: 120px;
+}
+.wetin{
+    width: 100%;
+    display: flex;
+    padding-top: 90px;
+}
+.wetin1{
+    height: 370px;
+    background-color: #01d28e;
+    width: 30%;
+}
+.wetin2{
+    width: 70%;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/bg_3.jpg.webp);
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.overlay2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 370px;
+    background-color: #0000004e;
+}
+.test{
+    width: 60%;
+    /* padding-left: 250px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    margin: auto;
+}
+.test h1{
+    color: #ffff;
+    font-size: 2.5rem;
+}
+.t-but button{
+    height: 40px;
+    width: 150px;
+    background-color: #1089ff;
+    color: #ffff;
+    border: none;
+    font-size: 1.05rem;
+    margin-top: 30px;
+    margin-right: 375px;
+}
+.gridy{
+    display: grid;
+    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: auto;
+}
+.gridy1{
+    height: 420px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 20px 45px 30px;
+
+}
+.gridy1a img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.gridy1b p{
+    /* height: 90px; */
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+}
+.gridy1c h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.gridy1c p{
+    color: #1089ff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.man{
+    width: 100%;
+    background-color: #f8f9fa;
+    height: 150px;
+}
+.write3{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.write3 h5{
+    color: #1089ff;
+    letter-spacing: 1px;
+}
+.write3 h2{
+    padding-top: 20px;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.84);
+}
+.gridi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 88%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.gridi1{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.img-one{
+    height: 270px;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/image_1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    height: 270px;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/image_2.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    height: 270px;
+    background-image: url(https://preview.colorlib.com/theme/carbook/images/image_3.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+.texta{
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+}
+.pro{
+    display: flex;
+    color: #1089ff;
+    /* padding-bottom: 20px; */
+}
+.pro p{
+    padding-top: 36px;
+}
+.texta h3{
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.butto button{
+    height: 35px;
+    width: 110px;
+    color: #ffff;
+    background-color: #1089ff;
+    border: none;
+    font-size: 1.05rem;
+}
+.pre{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    
+}
+.num1a{
+    display: flex;
+    background-color: #b2d7fc;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.num1a h1{
+    color: #1089ff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.num1a p{
+    color:  rgba(0, 0, 0, 0.84);
+    font-size: 1.3rem;
+    width: 60px;
+}
+.num1{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+.num1 h1{
+    color: #1089ff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.num1 p{
+    color:  rgba(0, 0, 0, 0.84);
+    font-size: 1.3rem;
+    width: 60px;
+}
+.footer{
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 110px 60px;
+    color: #ffff;
+    gap: 80px;
+}
+
+.footer1a{
+    width: 290px;
+    height: 50vh;
+} 
+.p{
+    padding-top: 45px;
+}       
+.footer1a p{
+    padding-top: 5px;
+    font-size: 1.1rem;
+    color: #c6c6c6;
+}
+.footer1 h3{
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.footer1 ul{
+    list-style: none;
+}
+ul li{
+    padding-bottom: 20px;
+}
+.icons{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto 50px;
+}
+.footer1{
+    width: 290px;
+    height: 50vh;
+}
+.footer1 li{
+    font-size: 1.1rem;
+    color: #c6c6c6;
+}
+.que1{
+    display: flex;
+    
+}
+.que{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    text-align: center;
+    
+}
+.que1 p{
+    padding-bottom: 20px;
+    color: #c6c6c6;
+    font-size: 1.1rem;
+}
+.que2{
+    display: flex;
+    color: #fefefe;
+    font-size: 1.1rem;
+}
+.postfooter{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    padding-bottom: 80px;
+    
+}
+.postfooter p{
+    width: 55%;
+    margin: auto;
+    color: #c6c6c6;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 350px) {
+    .logo{
+        text-align: center;
+    }
+    .
+}
+
